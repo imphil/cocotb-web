@@ -6,7 +6,7 @@ description: >-
   testbenches in Python.
 tagline: Python verification framework
 baseurl: ""
-url: "https://www.cocotb.org" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.cocotb.org"
 github_username: cocotb
 
 # Build settings
