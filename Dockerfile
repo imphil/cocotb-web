@@ -27,4 +27,5 @@ EXPOSE 4000
 # LiveReload server.
 EXPOSE 35729
 
-CMD [ "/bin/bash", "-c", "bundler install && yarn serve" ]
+ENTRYPOINT [ "/bin/bash", "-c" ]
+CMD [ "bundler install && yarn serve" ]
