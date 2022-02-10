@@ -26,7 +26,8 @@ title: The cocotb blog
         </a>
       </h3>
       {%- if site.excerpts.show -%}
-        {%- if site.excerpts.auto_truncate -%}{{ post.excerpt | truncatewords: 32 }}{%- else -%}{{ post.excerpt }}{%- endif -%}
+        {%- if site.excerpts.auto_truncate -%}{{ post.excerpt | truncatewords: 32 }}{%- else -%}{{ post.excerpt }}{%- endif %}
+        <a href="{{ post.url | absolute_url }}">Read more</a>
       {%- endif -%}
     </li>
     {%- endfor -%}
