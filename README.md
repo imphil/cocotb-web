@@ -33,6 +33,14 @@ The site is constantly updated if you make changes to any of the source files.
 (Updates may take a couple seconds; watch the output of the `docker run` command
 to see when it's done.)
 
+## Dependency update
+
+Update the Ruby dependencies using
+
+```
+docker run --init -v $PWD:/app -it cocotb-web-dev "bundler update"
+```
+
 ## License
 
 Except where otherwise noted, content on this site is licensed under a Creative
